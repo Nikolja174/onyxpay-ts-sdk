@@ -2,7 +2,7 @@ import { StringReader } from '../utils';
 export declare enum VmType {
     NativeVM = 255,
     NEOVM = 128,
-    WASMVM = 144
+    WASMVM = 144,
 }
 /**
  * @deprecated

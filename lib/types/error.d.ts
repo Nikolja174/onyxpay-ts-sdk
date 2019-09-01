@@ -19,5 +19,5 @@ export declare enum ERROR_CODE {
     NETWORK_ERROR = 52000,
     Decrypto_ERROR = 53000,
     INVALID_ADDR = 53001,
-    PreExec_ERROR = 54000
+    PreExec_ERROR = 54000,
 }

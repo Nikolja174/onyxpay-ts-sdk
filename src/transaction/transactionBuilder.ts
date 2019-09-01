@@ -196,7 +196,6 @@ export function makeNativeContractTx(
   code += pushInt(0);
   code += num2hexstring(opcode.SYSCALL);
   code += pushHexString(str2hexstr(NATIVE_INVOKE_NAME));
-  console.log("NATIVE_INVOKE_NAME@@", NATIVE_INVOKE_NAME);
 
   const payload = new InvokeCode();
   payload.code = code;

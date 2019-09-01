@@ -171,6 +171,6 @@ export declare class WebsocketClient {
      * @param raw Message to send
      * @param close Automaticly close connection if also autoClose is specified
      */
-    private send;
-    private notifyListener;
+    private send<T>(raw, close?);
+    private notifyListener(result);
 }

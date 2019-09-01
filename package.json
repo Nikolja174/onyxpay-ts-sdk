@@ -1,5 +1,5 @@
 {
-    "name": "ontology-ts-sdk",
+    "name": "onyxpay-ts-sdk",
     "version": "1.0.10",
     "description": "",
     "main": "./lib/index.js",
@@ -95,5 +95,4 @@
         "wif": "^2.0.6",
         "ws": "^4.1.0"
     }
-
 }

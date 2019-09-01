@@ -11,7 +11,7 @@ export declare enum TxType {
     Deploy = 208,
     Invoke = 209,
     Enrollment = 4,
-    Vote = 5
+    Vote = 5,
 }
 export declare const TxName: {
     BookKeeper: string;

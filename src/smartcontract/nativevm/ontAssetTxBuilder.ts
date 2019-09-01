@@ -35,8 +35,6 @@ export const ONG_CONTRACT = "0000000000000000000000000000000000000002";
  * @param tokenType Token type. Can only be ONT or ONG
  */
 export function getTokenContract(tokenType: string) {
-  console.log("tokenType@@", tokenType);
-
   if (tokenType === TOKEN_TYPE.ONT) {
     return new Address(ONT_CONTRACT);
   } else if (tokenType === TOKEN_TYPE.ONG) {

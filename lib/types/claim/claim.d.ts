@@ -6,7 +6,7 @@ import { Message, Metadata } from './message';
  */
 export declare enum RevocationType {
     AttestContract = "AttestContract",
-    RevocationList = "RevocationList"
+    RevocationList = "RevocationList",
 }
 /**
  * Revocation definition.
@@ -122,5 +122,5 @@ export declare class GetStatusResponse {
 export declare enum Status {
     REVOKED = "00",
     ATTESTED = "01",
-    NOTFOUND = "-1"
+    NOTFOUND = "-1",
 }

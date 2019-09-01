@@ -23,7 +23,4 @@ declare const _default: {
     Url_get_networkid: string;
     Url_get_gasprice: string;
 };
-/**
- * Restful api
- */
 export default _default;

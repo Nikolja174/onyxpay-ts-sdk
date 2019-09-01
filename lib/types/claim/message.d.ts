@@ -49,13 +49,13 @@ export declare abstract class Message {
      *
      * @param encoded JWT encoded payload
      */
-    private static deserializePayload;
+    private static deserializePayload(encoded);
     /**
      * Deserializes the header from JWT encoded header.
      *
      * @param encoded JWT encoded header
      */
-    private static deserializeHeader;
+    private static deserializeHeader(encoded);
     metadata: Metadata;
     signature?: Signature;
     constructor(metadata: Metadata, signature: Signature | undefined);
@@ -111,15 +111,15 @@ export declare abstract class Message {
     /**
      * Verifies if the expiration date has passed
      */
-    private verifyExpiration;
+    private verifyExpiration();
     /**
      * Verifies if the declared public key id belongs to issuer.
      */
-    private verifyKeyOwnership;
+    private verifyKeyOwnership();
     /**
      * Serializes payload part of JWT message.
      */
-    private serializePayload;
+    private serializePayload();
 }
 /**
  * Gets the public key associated with ONT ID from blockchain.

@@ -1,3 +1,4 @@
+/// <reference types="long" />
 import * as Long from 'long';
 /**
  * Turn hex string into array buffer

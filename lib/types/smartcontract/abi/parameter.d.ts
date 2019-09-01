@@ -11,7 +11,7 @@ export declare enum ParameterType {
     Long = "Long",
     IntArray = "IntArray",
     LongArray = "LongArray",
-    Address = "Address"
+    Address = "Address",
 }
 export declare enum ParameterTypeVal {
     ByteArray = 0,
@@ -20,7 +20,7 @@ export declare enum ParameterTypeVal {
     Interface = 64,
     Array = 128,
     Struct = 129,
-    Map = 130
+    Map = 130,
 }
 /**
  * Decribes the parameter.

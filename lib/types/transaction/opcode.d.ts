@@ -104,6 +104,6 @@ declare enum OPCODE {
     KEYS = 204,
     VALUES = 205,
     THROW = 240,
-    THROWIFNOT = 241
+    THROWIFNOT = 241,
 }
 export default OPCODE;

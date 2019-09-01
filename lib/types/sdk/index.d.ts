@@ -62,8 +62,7 @@ export declare class SDK {
         error: ERROR_CODE;
         result: string;
     }>;
-    static signData(content: string, // hex string
-    encryptedPrivateKey: string, password: string, address: string, salt: string, callback?: string): PgpSignature | object;
+    static signData(content: string, encryptedPrivateKey: string, password: string, address: string, salt: string, callback?: string): PgpSignature | object;
     static getBalance(address: string, callback?: string): Promise<{
         error: number;
         result: any;

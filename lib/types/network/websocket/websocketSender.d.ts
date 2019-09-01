@@ -6,7 +6,7 @@
  * Websocket sender for send messages and handle notify.
  */
 export declare class WebsocketSender {
-    private static generateReqId;
+    private static generateReqId();
     debug: boolean;
     private wsp;
     constructor(url?: string, debug?: boolean);

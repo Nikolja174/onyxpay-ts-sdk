@@ -3,7 +3,7 @@
  */
 export declare enum Direction {
     Right = "Right",
-    Left = "Left"
+    Left = "Left",
 }
 /**
  * Node in merkle proof

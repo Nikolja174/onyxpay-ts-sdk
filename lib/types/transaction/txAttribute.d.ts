@@ -3,7 +3,7 @@ export declare enum TransactionAttributeUsage {
     Nonce = 0,
     Script = 32,
     DescriptionUrl = 129,
-    Description = 144
+    Description = 144,
 }
 /**
  * @deprecated
